@@ -1,0 +1,3 @@
+pandera[polars]>=0.31.1
+openlineage-python==1.47.1
+polars

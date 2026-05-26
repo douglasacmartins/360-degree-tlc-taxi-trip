@@ -215,4 +215,10 @@ marimo/_lsp/
 __marimo__/
 
 # Streamlit
-.streamlit/secrets.toml
+.streamlit/secrets.toml~
+
+# Custom ignore rules
+*.parquet
+.*
+!.python-version
+!.git*

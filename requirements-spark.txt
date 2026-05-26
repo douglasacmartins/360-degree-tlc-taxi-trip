@@ -1,0 +1,7 @@
+pandera[spark]>=0.31.1
+numpy
+pandas
+pyarrow
+grpcio
+protobuf
+openlineage-python==1.47.1
