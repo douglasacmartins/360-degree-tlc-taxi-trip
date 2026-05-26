@@ -47,10 +47,11 @@ Our platform strictly adheres to the Medallion Data Architecture (Bronze, Silver
 
 For deep technical context on why we chose specific patterns (and the alternatives we rejected), please review our ADRs in the `/docs/architecture` folder:
 
-* `ADR-001: Secure Ingestion and Event-Driven Micro-Batching`
-* `ADR-002: Lazy Compaction and Resilient Error Handling`
-* `ADR-003: Storage Tiering, Lifecycle Management, and Queue Retention`
-* `ADR-004: Analytical Processing (Gold Layer) and Data Discovery`
+* [ADR 001: Secure Ingestion and Event-Driven Micro-Batching](docs/architecture/ADR-001-Bronze-to-Silver-Ingestion.md)
+* [ADR 002: Lazy Compaction and Resilient Error Handling for Silver Layer](docs/architecture/ADR-002-Lazy-Compaction-Silver-Layer.md)
+* [ADR 003: Storage Tiering, Lifecycle Management, and Queue Retention](docs/architecture/ADR-003-Storage-Tiering-and-Queue-Retention.md)
+* [ADR 004: Analytical Processing (Gold Layer) and Data Discovery](docs/architecture/ADR-004-Analytical-Transformation-and-Governance.md)
+
 
 ## 🚀 Getting Started
 
@@ -61,6 +62,10 @@ For deep technical context on why we chose specific patterns (and the alternativ
 3. **Contribute to Models:** Clone the `/dbt-models` directory to start contributing to the Gold layer aggregations.
 
 *Built with passion, operational rigor, and an obsession with FinOps by the Data Platform Team.*
+
+---
+
+![Full architecture diagram](docs/360-degree-datalake-architecture.png)
 
 --- 
 
